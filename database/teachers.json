@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "name": "Sakar Bista",
+        "subject" : "Maths",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/07/Sakar-Bista-253x300-2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ishwor K.C",
+        "subject" : "Science",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Ishwor-K-C-258x300-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tanka Mishra",
+        "subject" : "Maths",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/07/Tanka-Mishra-258x300-1.jpg"
+        
+    },        {
+        "id": 4,
+        "name": "Pashupati Mourya",
+        "subject" : "Computer",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/07/Pashupati-Nath-Mouriya-253x300-2.jpg"
+        
+    },        {
+        "id": 5,
+        "name": "Ajita Dhakal ",
+        "subject" : "Moral Science",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Ajita-Dhakal-258x300-1.jpg"
+        
+    },        {
+        "id": 6,
+        "name": "Kripa Bajracharya",
+        "subject" : "Dance",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Kripa-Bajracharya-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 7,
+        "name": "Sandhya Kafle",
+        "subject" : "Maths",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sandhya-Kafle-768x910.jpg"
+        
+    },        {
+        "id": 8,
+        "name": "Alisha Sherstha",
+        "subject" : "Computer",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Alisha-Shrestha-256x300-1-150x150.jpg"
+        
+    },        {
+        "id": 9,
+        "name": "Mahesh Chaulagain",
+        "subject" : "Physics Lab Assistant",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Mahesh-Chaulagain-1-253x300-1-150x150.jpg"
+        
+    },        {
+        "id": 10,
+        "name": "Alizona Tandukar",
+        "subject" : "COmputer",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Alizona-Tandukar-254x300-1-150x150.jpg"
+        
+    },        {
+        "id": 11,
+        "name": "Manju Mainali",
+        "subject" : "Maths",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Manju-Mainali-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 12,
+        "name": "Sandipa Shrestha",
+        "subject" : "English",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sandipa-Shrestha-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 13,
+        "name": "Ambika Baral",
+        "subject" : "Nepali",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Ambika-Baral-253x300-1-150x150.jpg"
+        
+    },        {
+        "id": 14,
+        "name": "Menuka Duwadi",
+        "subject" : "Social Studies",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Menuka-Dawadi-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 15,
+        "name": "Sangeeta Bajracharya",
+        "subject" : "English",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sangeeta-Bajracharya-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 16,
+        "name": "Amina Shrestha",
+        "subject" : "G.K / Moral Science",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Amina-Shrestha-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 17,
+        "name": "Mundamala Shrestha",
+        "subject" : "Art / Pre-voc",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Munda-Mala-Shrestha-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 18,
+        "name": "Sangita Bhatta",
+        "subject" : "Science",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sangita-Bhatta-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 19,
+        "name": "Amrita Devkota",
+        "subject" : "Chemistry Lab Assistant",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Amrita-Devkota-242x300-1-150x150.jpg"
+        
+    },        {
+        "id": 20,
+        "name": "Neelam Poudel",
+        "subject" : "Hamro Gokerneshwor",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Neelam-Poudel-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 21,
+        "name": "Sarala Acharya",
+        "subject" : "Nepali",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sarala-Acharya-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 22,
+        "name": "Anjana Shrestha",
+        "subject" : "Maths",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Anjana-Shrestha-253x300-1-150x150.jpg"
+        
+    },        {
+        "id": 23,
+        "name": "Nilam Shrestha",
+        "subject" : "EngI&II/Maths/ Science / Social/ Handwriting",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Nilam-Shrestha-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 24,
+        "name": "Sarita Shrestha",
+        "subject" : "EngI&II/Maths/ Science/Social",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Sarita-Shrestha-258x300-1-150x150.jpg"
+        
+    },        {
+        "id": 25,
+        "name": "Karna Rai",
+        "subject" : "Social Studies",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Karna-Rai-768x910.jpg"
+        
+    },        {
+        "id": 26,
+        "name": "Urmila Pariyar",
+        "subject" : "OBTE",
+        "image" : "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Urmila-Pariyar-258x300-1-150x150.jpg"
+        
+    }
+]

@@ -1,0 +1,174 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Name: Sakar Bist",
+      "subject": "Subject: Maths",
+      "image": "https://school.chelsea.edu.np/wp-content/uploads/2022/08/Ishwor-K-C-258x300-2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Name: Ishwor K.C",
+      "subject": "Subject: Science",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Name: Tanka Mishra",
+      "subject": "Subject: Maths",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Name: Pashupati Mourya",
+      "subject": "Subject: Computer",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Name: Ajita Dhakal ",
+      "subject": "Subject: Moral Science",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Name: Kripa Bajracharya",
+      "subject": "Subject: Dance",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "Name: Sandhya Kafle",
+      "subject": "Subject: Maths",
+      "image": ""
+    },
+    {
+      "id": 8,
+      "name": "Name: Alisha Sherstha",
+      "subject": "Subject: Computer",
+      "image": ""
+    },
+    {
+      "id": 9,
+      "name": "Name: Mahesh Chaulagain",
+      "subject": "Subject: Physics Lab Assistant",
+      "image": ""
+    },
+    {
+      "id": 10,
+      "name": "Name: Alizona Tandukar",
+      "subject": "Subject: COmputer",
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "Name: Manju Mainali",
+      "subject": "Subject: Maths",
+      "image": ""
+    },
+    {
+      "id": 12,
+      "name": "Name: Sandipa Shrestha",
+      "subject": "Subject: English",
+      "image": ""
+    },
+    {
+      "id": 13,
+      "name": "Name: Ambika Baral",
+      "subject": "Subject: Nepali",
+      "image": ""
+    },
+    {
+      "id": 14,
+      "name": "Name: Menuka Duwadi",
+      "subject": "Subject: Social Studies",
+      "image": ""
+    },
+    {
+      "id": 15,
+      "name": "Name: Sangeeta Bajracharya",
+      "subject": "Subject: English",
+      "image": ""
+    },
+    {
+      "id": 16,
+      "name": "Name: Amina Shrestha",
+      "subject": "Subject: G.K / Moral Science",
+      "image": ""
+    },
+    {
+      "id": 17,
+      "name": "Name: Mundamala Shrestha",
+      "subject": "Subject: Art / Pre-voc",
+      "image": ""
+    },
+    {
+      "id": 18,
+      "name": "Name: Sangita Bhatta",
+      "subject": "Subject: Science",
+      "image": ""
+    },
+    {
+      "id": 19,
+      "name": "Name: Amrita Devkota",
+      "subject": "Subject: Chemistry Lab Assistant",
+      "image": ""
+    },
+    {
+      "id": 20,
+      "name": "Name: Neelam Poudel",
+      "subject": "Subject: Hamro Gokerneshwor",
+      "image": ""
+    },
+    {
+      "id": 21,
+      "name": "Name: Sarala Acharya",
+      "subject": "Subject: Nepali",
+      "image": ""
+    },
+    {
+      "id": 22,
+      "name": "Name: Anjana Shrestha",
+      "subject": "Subject: Maths",
+      "image": ""
+    },
+    {
+      "id": 23,
+      "name": "Name: Nilam Shrestha",
+      "subject": "Subject: EngI&II/Maths/ Science / Social/ Handwriting",
+      "image": ""
+    },
+    {
+      "id": 24,
+      "name": "Name: Sarita Shrestha",
+      "subject": "Subject: EngI&II/Maths/ Science/Social",
+      "image": ""
+    },
+    {
+      "id": 25,
+      "name": "Name: Karna Rai",
+      "subject": "Subject: Social Studies",
+      "image": ""
+    },
+    {
+      "id": 26,
+      "name": "Name: Urmila Pariyar",
+      "subject": "Subject: OBTE",
+      "image": ""
+    }
+  ]
+}
