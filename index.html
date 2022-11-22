@@ -27,39 +27,43 @@
 </head>
 
 <body data-nav="false">
-
+	
+	
 	<nav class="navbar">
 		<div class="content">
 			<div class="logo">
 				<a href="https://www.youtube.com/watch?v=GtL1huin9EE" target="_blank" style="cursor: default;">VSS</a>
 			</div>
-			<ul class="menu-list">
-				<div class="icon cancel-btn" onclick=toggleNav()>
-					<i class="fas fa-times" onclick=toggleNav()></i>
-				</div>
-				<li><a href="#" data-page="home">Home</a></li>
-				<li><a href="#about-us" data-page="about-us">About</a></li>
-				<li><a href="#Feedbacks" data-page="testimonials">Feedbacks</a></li>
-				<li><a href="#teachersInfo" data-page="teachersInfo">Teacher's Info</a></li>
-				<!-- <li><a href="https://school.chelsea.edu.np/" target="_blank">Official Website</a></li> -->
-				<li> <a style="margin: 0px; padding: 0px;" href="https://school.chelsea.edu.np/" target="_blank"><button class="nav-main-btn" >Official Website</button> </a> </li>
-
-
+			<div class="nav-content">
+				<ul class="menu-list">
+					<div class="icon cancel-btn" onclick=toggleNav()>
+						<i class="fas fa-times" onclick=toggleNav()></i>
+					</div>
+					<li><a href="#" data-page="home">Home</a></li>
+					<li><a href="#about-us" data-page="about-us">About</a></li>
+					<li><a href="#Feedbacks" data-page="testimonials">Feedbacks</a></li>
+					<li><a href="#teachersInfo" data-page="teachersInfo">Teacher's Info</a></li>
+					<!-- <li><a href="https://school.chelsea.edu.np/" target="_blank">Official Website</a></li> -->
+				<li><a style="margin: 0px; padding: 0px;" href="https://school.chelsea.edu.np/" target="_blank"><button class="nav-main-btn" >Official Website</button> </a> </li>
+				
+				
 				
 				<div class="bubble" style="position: absolute; background-color: #fff; border-radius: 5px; height: 3px;"></div>
 			</ul>
-			<div class="icon menu-btn" onclick=toggleNav()>
-				<i class="fas fa-bars" onclick=toggleNav()></i>
-			</div>
 		</div>
-	</nav>
+		<div class="icon menu-btn" onclick=toggleNav()>
+			<i class="fas fa-bars" onclick=toggleNav()></i>
+		</div>
+	</div>
+</nav>
 
-	<main>
-		<section class="home" data-index="0">
-			<div class="container">
-				<h1><span class="auto-type"></span>
-				</h1>
-				
+<main>
+	<section class="home" data-index="0">
+		<div class="container">
+			<h1><span class="auto-type"></span>
+			</h1>
+			
+			<h6 class="INFORMATION" style="margin-bottom: 20px;">USE LAPTOPS, PCs or any other devices which have more width than 1500+px for better experience.(CLICK THIS MESSAGE TO REMOVE) </h6>
 				<h3>A School with all your needs.</h3>
 				
 				<a class="btn-posnawr" href="#about-us">Learn More<span></span></a>
@@ -139,7 +143,7 @@
 						<form class="text-center py-4">
 							<input type="text"
 						class="search hidden focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md text-align-center"
-						id="filterInput" placeholder="(Search by the teacher's name not by their)">
+						id="filterInput" placeholder="Search teacher">
 				</form>
 			</div>
 
@@ -183,7 +187,7 @@
 					class="hidden to-be-seen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-12 gap-5">
 
 				</div>
-				<div style="height: 10%; width: 100%; display: flex; justify-content: center; align-items: center;"
+				<div style="height: 10%; width: 100%; display: flex; justify-content: center; align-items: center;" 
 					class="viewMore">
 					<button class="more" href="" value="view_more">View More</button>
 				</div>
@@ -232,12 +236,16 @@
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script>
 
+		// MAIN WELCOMING TEXT (Welcome to Vidhya Sanskar School)
+
 		let span = '<span class=\'highlighted\' style="font-weight: bold;">'
 		let span__end = '</span>'
 		let typed = new Typed('.auto-type', {
 			strings: [`Welcome to${span} Vidhya Sanskar School.${span__end}`],
 			typeSpeed: 50,
 		})
+
+
 	</script>
 
 	<!-- ION ICONS -->

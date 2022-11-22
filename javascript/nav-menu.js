@@ -1,30 +1,15 @@
-// window.onload = function () {
-// 	window.addEventListener('scroll', function (e) {
-// 		if (window.pageYOffset > 150) {
-// 			document.querySelector("header").classList.add('is-scrolling');
-// 		} else {
-// 			document.querySelector("header").classList.remove('is-scrolling');
-// 		}
-// 	});
 
-// 	const menu_btn = document.querySelector('.MENU');
-//     // const body = document.querySelector('body');
-// 	const mobile_menu = document.querySelector('.mobile-nav');
-
-// 	menu_btn.addEventListener('click', function () {
-// 		menu_btn.classList.toggle('is-active');
-//         body.classList.toggle('.is-active')
-// 		mobile_menu.classList.toggle('is-active');
-// 	});
-// }
-
-// let body = document.querySelectorAll('.mobile-suitable');
-// const before_body = window.getComputedStyle(body, '::before')
 
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
+const information = document.querySelector(".INFORMATION")
+
+information.addEventListener('click',  () => {
+  information.style.display = 'none';
+})
+
 menuBtn.onclick = () => {
   navbar.classList.add("show");
   menuBtn.classList.add("hide");

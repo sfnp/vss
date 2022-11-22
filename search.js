@@ -6,6 +6,7 @@ let to_be_hidden = document.querySelector('.to-be-hidden');
 let to_be_seen = document.querySelector('.to-be-seen');
 let more_btn = document.querySelector('.more')
 let search = document.querySelector('.search')
+let magrin = document.getElementById('boyd')
 
 function changeText() {
     let more_btn = document.querySelector('.more');
@@ -16,7 +17,7 @@ function changeText() {
     else {
     more_btn.textContent = "View More";
     more_btn.value = "view_more";
-
+    
 }
 }
 
@@ -46,32 +47,40 @@ fetch('./database/teachers.json')
 filterInput.addEventListener('keyup', filterProducts);
 
 // callback function 
-function filterProducts(){
+function filterProducts(valueOfImage){
+
+
+
     let filterValue = filterInput.value.toUpperCase();
     let item = grid.querySelectorAll('.item')
     // console.log(filterValue);
 
-    for (let i = 0; i < item.length; i++){
+    for (var i = 0; i < item.length; i++){
         let span = item[i].querySelector('.title');
 
         if(span.innerHTML.toUpperCase().indexOf(filterValue) > -1){
-            item[i].style.display = "initial";
+            item[i].style.display = "block";
+            
         }else{
             item[i].style.display = "none";
         }
 
     }
+
+
+
 }
 
 
 function addElement(appendIn, value){
     let div = document.createElement('div');
-    div.className = "item teacher grid place-content-center content-center";
-
+    div.className = "item teacher flex flex-col";
+    
     let { image, name, subject } = value;
 
+    
     div.innerHTML = `
-    <img src="${image}" height="200px" width="200px" class="self-center" alt="img1">
+    <img src="${image}" height="200px" width="200px" class="place-self-center self-center" style="margin-left: 30px;" alt="img1">
     <div class="">
     <h1 class="text-lg title">${name}</h1>
     <span class="">Subject: ${subject}</span>
