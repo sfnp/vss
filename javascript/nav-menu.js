@@ -5,9 +5,14 @@ const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const information = document.querySelector(".INFORMATION")
+let bruh = document.querySelectorAll('.nav-links')
 
-information.addEventListener('click',  () => {
-  information.style.display = 'none';
+bruh.forEach(item => {
+  item.addEventListener('click', event => {
+  navbar.classList.remove("show"); 
+  menuBtn.classList.remove("hide");
+
+  })
 })
 
 menuBtn.onclick = () => {
@@ -23,6 +28,7 @@ cancelBtn.onclick = () => {
 window.onscroll = () => {
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
+
 
 // const toggleNav = () => {
   // document.body.dataset.nav = document.body.dataset.nav === 'true' ? 'false' : 'true';
