@@ -5,6 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 
 .INFORMATION {
@@ -53,7 +54,6 @@ hr {
 }
 
 body[data-nav=true] {
-  position: absolute;
   left: 400px;
   transition: all 300ms ease;
 }

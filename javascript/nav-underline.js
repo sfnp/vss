@@ -19,6 +19,7 @@ function navCheck(entries) {
         const activeAnchor = document.querySelector(`[data-page=${className}]`);
         const gradientIndex = entry.target.getAttribute('data-index');
         const coords = activeAnchor.getBoundingClientRect();
+        
         const directions  = {
             height: coords.height,
             width: coords.width,
