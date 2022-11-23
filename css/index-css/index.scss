@@ -18,6 +18,16 @@ $secondary-highlited: #ffcd6f;
 	overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+	width: 0.25em;
+	background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: gray;
+	border-radius: 20px;
+}
+
 .INFORMATION {
 	display: none;
 	width: 100%;
