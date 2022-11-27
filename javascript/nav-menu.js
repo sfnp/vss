@@ -15,6 +15,10 @@ bruh.forEach(item => {
   })
 })
 
+information.addEventListener('click', () => {
+  information.style.display = "none";
+})
+
 menuBtn.onclick = () => {
   navbar.classList.add("show");
   menuBtn.classList.add("hide");
@@ -30,13 +34,13 @@ window.onscroll = () => {
 }
 
 
-// const toggleNav = () => {
-  // document.body.dataset.nav = document.body.dataset.nav === 'true' ? 'false' : 'true';
-  // if(before_body.display === 'none') {
-  // 	before_body.display = 'block';
-  // }
+const toggleNav = () => {
+  document.body.dataset.nav = document.body.dataset.nav === 'true' ? 'false' : 'true';
+  if(before_body.display === 'none') {
+  	before_body.display = 'block';
+  }
 
-  // console.log(before_body.display)
-  // before_body.setProperty("--blokc", 'block')
-  // body.classList.toggle('mobile-active-open');
-// }
+  console.log(before_body.display)
+  before_body.setProperty("--blokc", 'block')
+  body.classList.toggle('mobile-active-open');
+}

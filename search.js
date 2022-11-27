@@ -80,7 +80,7 @@ function addElement(appendIn, value){
 
     
     div.innerHTML = `
-    <img src="${image}" height="200px" width="200px" class="place-self-center self-center" style="margin-left: 30px;" alt="img1">
+    <img src="image.jpg" height="200px" width="200px" class="place-self-center self-center" style="margin-left: 30px;" alt="connot access the image due to the suspension of the official website of the school.">
     <div class="">
     <h1 class="text-lg title">${name}</h1>
     <span class="">Subject: ${subject}</span>
